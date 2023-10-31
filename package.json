@@ -1,0 +1,30 @@
+{
+  "name": "market-ocr",
+  "version": "1.0.0",
+  "description": "market-ocr",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src\\server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/"
+  },
+  "keywords": [],
+  "author": "Claiton Londero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/"
+  },
+  "homepage": "https://github.com/e",
+  "dependencies": {
+    "@google-cloud/vision": "^2.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.3",
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
